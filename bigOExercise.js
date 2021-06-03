@@ -34,7 +34,8 @@ function logUpTo(n) {
   }
 }
 
-// Time Complexity: O(n)
+// Time Complexity: 
+O(n)
 
 function logAtLeast10(n) {
   for (let i = 1; i <= Math.max(n, 10); i++) {
@@ -42,7 +43,8 @@ function logAtLeast10(n) {
   }
 }
 
-// Time Complexity: O(n)
+// Time Complexity: 
+O(n)
 
 function logAtMost10(n) {
   for (let i = 1; i <= Math.min(n, 10); i++) {
@@ -50,7 +52,8 @@ function logAtMost10(n) {
   }
 }
 
-// Time Complexity: O(1)  // Unsure how this differs from above
+// Time Complexity: 
+O(1)  // Unsure how this differs from above
 
 function onlyElementsAtEvenIndex(array) {
   let newArray = [];
@@ -62,7 +65,8 @@ function onlyElementsAtEvenIndex(array) {
   return newArray;
 }
 
-// Time Complexity: O(n)
+// Time Complexity: 
+O(n)
 
 function subtotals(array) {
   let subtotalArray = [];
@@ -76,7 +80,8 @@ function subtotals(array) {
   return subtotalArray;
 }
 
-// Time Complexity: O(n^2)
+// Time Complexity: 
+O(n ^ 2)
 
 function vowelCount(str) {
   let vowelCount = {};
@@ -95,25 +100,39 @@ function vowelCount(str) {
   return vowelCount;
 }
 
-// Time Complexity: O(n)
+// Time Complexity: 
+O(n)
 
 
 // Part 3 - short answer
 // Answer the following questions
 
-// True or false: n^2 + n is O(n^2). True
-// True or false: n^2 * n is O(n^3). True
-// True or false: n^2 + n is O(n). False
-// What’s the time complexity of the .indexOf array method? O(n)
-// What’s the time complexity of the .includes array method? O(n)
-// What’s the time complexity of the .forEach array method? O(n) except where callback adds a level of complexity
-// What’s the time complexity of the .sort array method? O(n log n) but im not sure on the specifics 
-// What’s the time complexity of the .unshift array method? O(n)
-// What’s the time complexity of the .push array method? O(1)
-// What’s the time complexity of the .splice array method? O(n)
-// What’s the time complexity of the .pop array method? O(1)
-// What’s the time complexity of the Object.keys() function? O(n)
+// True or false: n^2 + n is O(n^2). 
+True
+// True or false: n^2 * n is O(n^3). 
+True
+// True or false: n^2 + n is O(n). 
+False
+// What’s the time complexity of the .indexOf array method? 
+O(n)
+// What’s the time complexity of the .includes array method? 
+O(n)
+// What’s the time complexity of the .forEach array method? 
+O(n) // except where callback adds a level of complexity
+// What’s the time complexity of the .sort array method? 
+O(n log n) // but im not sure on the specifics 
+// What’s the time complexity of the .unshift array method? 
+O(n)
+// What’s the time complexity of the .push array method? 
+O(1)
+// What’s the time complexity of the .splice array method? 
+O(n)
+// What’s the time complexity of the .pop array method? 
+O(1)
+// What’s the time complexity of the Object.keys() function? 
+O(n)
 
 // BONUS
 
-// What’s the space complexity of the Object.keys() function? O(n)
+// What’s the space complexity of the Object.keys() function? 
+O(n)
